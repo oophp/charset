@@ -1,0 +1,21 @@
+{
+    "name": "oophp/charset",
+    "description": "Object Oriented PHP Charset handling",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yehuda Deutsch",
+            "email": "yeh@uda.co.il"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OOPHP\\Charset\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "ext-iconv": "*"
+    }
+}
